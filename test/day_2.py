@@ -1,9 +1,6 @@
-
 X = 1
 Y= 2
 Z = 3
-
-
 lose = 0 
 draw = 3
 win = 6
@@ -13,16 +10,9 @@ win = 6
 with open(r"data\day_2.txt",'r')  as input:
     read = input.readlines() 
     read = [i.replace('\n','') for i in read]
-    # print(read)
+
 
     score = []
-    # points = 0
-    # for number in read:
-        # print(number)
-        # if  "C" in number:
-            # points += scissors
-    
-    # print(points)
 
 def game(games):
     points = 0

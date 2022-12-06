@@ -1,14 +1,8 @@
-#part 2
-A = 1
-B = 2
-C = 3
 
 X = 1
 Y= 2
 Z = 3
-rock = 1
-paper = 2
-scissors = 3
+
 
 lose = 0 
 draw = 3
